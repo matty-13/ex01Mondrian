@@ -46,3 +46,12 @@ line(0,508,width,512);
 //3
 line(614,511,614,height);
 }
+//texture
+
+let img;
+
+async function setup () {
+img = await loadImage('c:\Users\matil\OneDrive - Instituto Politécnico de Lisboa\Documentos\LAVT\3º ano\1º semestre\Design de Inovação\ex01Mondrian\white-canvas-background\preview.jpg');
+
+texture(img);
+}
